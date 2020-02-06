@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Hello stranger</title>
-        <link rel="stylesheet" href="/static/css/style.css">
-    </head>
+{% extends "base.html" %}
 
-    <body>
-        <h1>This is a test website to practice web deployment</h1>
-        <img src="jetbrains://pycharm/navigate/reference?project=testblog&path=static/img/smartninja.png">
-    </body>
-</html>
+{% block content %}
+    <p>Hello, index.html here!</p>
+{% endblock content %}
